@@ -1,5 +1,5 @@
 {
-  "name": "lambda_test",
+  "name": "asgi",
   "version": "1.0.0",
   "description": "Python dependencies for serverless framework",
   "main": "index.js",

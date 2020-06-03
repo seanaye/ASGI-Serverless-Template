@@ -1,4 +1,4 @@
-from lambda_test import __version__
+from asgi import __version__
 
 
 def test_version():

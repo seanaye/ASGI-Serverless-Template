@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "lambda_test"
+name = "asgi"
 version = "0.1.0"
-description = ""
+description = "Simple ariadne application"
 authors = ["Sean Aye <hello@seanaye.ca>"]
 
 [tool.poetry.dependencies]

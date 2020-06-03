@@ -11,7 +11,7 @@ provider:
 
 functions:
   graphql:
-    handler: lambda_test/handler.handler
+    handler: asgi/main.handler
     events:
       - httpApi: '*'
 
