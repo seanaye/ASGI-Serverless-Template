@@ -1,0 +1,24 @@
+# serverless.yml
+
+org: seanaye
+app: my-first-app
+
+service: graphql-test
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  graphql:
+    handler: lambda_test/handler.handler
+    events:
+      - httpApi: '*'
+
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux

@@ -1,0 +1,11 @@
+{
+  "name": "lambda_test",
+  "version": "1.0.0",
+  "description": "Python dependencies for serverless framework",
+  "main": "index.js",
+  "author": "Sean Aye",
+  "license": "MIT",
+  "dependencies": {
+    "serverless-python-requirements": "^5.1.0"
+  }
+}
